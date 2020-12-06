@@ -9,6 +9,17 @@ mapa m;
 personagem heroi;
 inimigo *fantasmas;
 
+//  Funcao que imprime o menu principal do jogo
+void imprimir_menu(void)
+{
+    //  Menu
+    printf("--- MENU --- \n");
+    printf("1. Novo Jogo \n");
+    printf("2. Rank \n");
+    printf("0. Sair do Jogo \n");
+    printf("Opcao: ");
+}
+
 //  Funcao que localiza as coordenadas do personagem na matriz
 void localizar_personagem(void)
 {

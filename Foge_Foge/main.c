@@ -21,40 +21,38 @@ int main()
     //  Definindo semente para a funcao rand
     srand(time(NULL));
 
+    //  Variavel que controla o loop principal
     int opcao;
     
+    //  Loop do programa
     do
     {
-        //  Menu
-        printf("--- MENU --- \n");
-        printf("1. Novo Jogo \n");
-        printf("2. Rank \n");
-        printf("0. Sair do Jogo \n");
-        printf("Opcao: ");
+        //  Imprimindo menu principal
+        imprimir_menu();
+        //  Leitura da opcao
         scanf("%d", &opcao);
         setbuf(stdin, NULL);
 
+        //  Limpando tela
         system("clear");
         
-        switch (opcao)
+        switch(opcao)
         {
-            case(1):
-                /* code */
+            case(RODAR_JOGO):
+                //  Code
                 break;
             case(2):
                 printf("EM BREVE! \n");
-                continue;
                 break;
-            case(3):
+            case(SAIR_JOGO):
                 printf("Obrigado por jogar! \n");
-                return 0;
+                opcao = SAIR_JOGO;
                 break;
             default:
                 printf("Opcao invalida! \n");
-                continue;
                 break;
         }
-        
+
         //  Leitura do mapa na matriz
         ler_mapa(&m, MAPA_LEVEL_1);
 
@@ -71,7 +69,7 @@ int main()
         m.level = LEVEL_1;
 
         //  Loop do jogo
-        do
+        while(verificar_gameover(m.level))
         {
             //  Limpando a tela
             system("clear");
@@ -88,7 +86,7 @@ int main()
             //  Verificando se o usuaio passou de level
             m.level = completar_level(m.level);
 
-        }while(verificar_gameover(m.level));
+        }
 
         //  Liberando espaco na memoria antes de encerra o programa
         liberar_matriz(&m);
