@@ -27,15 +27,14 @@ int main()
     //  Loop do programa
     do
     {
+        //  Limpando tela
+        system("clear");
         //  Imprimindo menu principal
         imprimir_menu();
         //  Leitura da opcao
         scanf("%d", &opcao);
         setbuf(stdin, NULL);
-
-        //  Limpando tela
-        system("clear");
-        
+        //  Verificando a opcao
         switch(opcao)
         {
             case(RODAR_JOGO):
