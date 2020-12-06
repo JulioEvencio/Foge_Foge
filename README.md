@@ -1,2 +1,5 @@
-# Foge_Foge
- Foge Foge
+### FOGE FOGE ###
+## SOBRE ##
+Jogo baseado no livro: INTRODUCAo A PROGRAMACAO EM C OS PRIMEIROS PASSOS DE UM DESENVOLVEDOR
+
+### EM DESENVOLVIMENTO.. ###
