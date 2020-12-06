@@ -40,7 +40,8 @@ struct dados_fantasmas
 typedef struct dados_fantasmas inimigo;
 
 /*  Funcoes */
-void imprimir_menu(void);
+int imprimir_menu(int opcao);
+int verificar_opcao(int opcao);
 void localizar_personagem(void);
 void movimentar_personagem(char comando);
 int verificar_movimento_personagem(int x, int y);
