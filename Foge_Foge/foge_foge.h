@@ -2,10 +2,6 @@
 #define FOGE_FOGE_H_INCLUDED
 
 /*  Constantes */
-//  Menu
-#define RODAR_JOGO 1
-#define EXIBIR_RANK 2
-#define SAIR_JOGO 0
 //  Personagem
 #define CIMA_PERSONAGEM 'w'
 #define BAIXO_PERSONAGEM 's'
@@ -40,8 +36,6 @@ struct dados_fantasmas
 typedef struct dados_fantasmas inimigo;
 
 /*  Funcoes */
-int imprimir_menu(int opcao);
-int verificar_opcao(int opcao);
 void localizar_personagem(void);
 void movimentar_personagem(char comando);
 int verificar_movimento_personagem(int x, int y);

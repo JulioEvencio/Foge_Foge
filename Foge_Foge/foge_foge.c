@@ -9,40 +9,6 @@ mapa m;
 personagem heroi;
 inimigo *fantasmas;
 
-//  Funcao que imprime o menu principal do jogo
-int imprimir_menu(int opcao)
-{
-    printf("--- MENU --- \n");
-    printf("1. Novo Jogo \n");
-    printf("2. Rank \n");
-    printf("0. Sair do Jogo \n");
-    printf("Opcao: ");
-    scanf("%d", &opcao);
-    setbuf(stdin, NULL);
-    return opcao;
-}
-
-//  Funcao que verifica a opcao digitada pelo usuario
-int verificar_opcao(int opcao)
-{
-    switch(opcao)
-    {
-        case(RODAR_JOGO):
-            opcao = RODAR_JOGO;
-            break;
-        case(EXIBIR_RANK):
-            printf("EM BREVE! \n");
-            break;
-        case(SAIR_JOGO):
-            opcao = SAIR_JOGO;
-            break;
-        default:
-            printf("Opcao invalida! \n");
-            break;
-    }
-    return opcao;
-}
-
 //  Funcao que localiza as coordenadas do personagem na matriz
 void localizar_personagem(void)
 {
