@@ -1,25 +1,26 @@
 # Foge Foge
 
 ## O que é?
-Foge Foge é um hogo do livro "INTRODUCAo A PROGRAMACAO EM C OS PRIMEIROS PASSOS DE UM DESENVOLVEDOR", esta é uma versão modificada do original.
+Foge Foge é um jogo do livro "INTRODUCAo A PROGRAMACAO EM C OS PRIMEIROS PASSOS DE UM DESENVOLVEDOR", esta é uma versão modificada do original.
 
-**Objetivo
+**Objetivo**
 
 O objetivo do jogo é coletar todas as bolas no mapas sem ser morto para um fantasma
 
-**Derrota
+**Derrota**
 
 O jogador perde quando um fantasma vai para o mesmo local do personagem, isto é, quando um fantasma "come" o personagem
 
-**Movimentação
+**Movimentação**
 
 O usuário pode mover o personagem usando as teclas: **W**, **S**, **A** e **D**, sendo:
+
 **W** -> Cima
 **S** -> Baixo
 **A** -> Esquerda
 **D** -> Direita
 
-**Observação
+**Observação**
 
 Caso o usuário não fizer um movimento válido então ele não moverá, entretanto os fantasmas vão se mover normalmente
 
