@@ -1,7 +1,7 @@
 # Foge Foge
 
 ## O que é?
-Foge Foge é um jogo do livro "INTRODUCAo A PROGRAMACAO EM C OS PRIMEIROS PASSOS DE UM DESENVOLVEDOR", esta é uma versão modificada do original.
+Foge Foge é um jogo do livro "INTRODUCAO A PROGRAMACAO EM C OS PRIMEIROS PASSOS DE UM DESENVOLVEDOR", esta é uma versão modificada do original.
 
 **Objetivo**
 
