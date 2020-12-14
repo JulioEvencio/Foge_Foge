@@ -34,20 +34,20 @@ Caso o usuário não fizer um movimento válido então ele não moverá, entreta
 ## Fases
 O jogo é composto por 3 fases.
 
-### Level 1 ###
+### Fase 1 ###
 
 Esta é a primeira fase, ela conta apenas com 1 inimgo e por isso é a mais fácil das 3.
 
 ![level_1](https://user-images.githubusercontent.com/65574850/101289255-18004080-37da-11eb-8bef-c67e98f446d3.png)
 
-### Level 2 ###
+### Fase 2 ###
 
 A dificuldade deste nível é moderada...
 
 ![level_2](https://user-images.githubusercontent.com/65574850/101289261-1e8eb800-37da-11eb-9083-8bbb3f608b94.png)
 
 
-### Level 3 ###
+### Fase 3 ###
 
 Paciência e fazer movimentos inválidos são as chaves para passar deste level!
 
