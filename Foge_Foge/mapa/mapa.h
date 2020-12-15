@@ -26,7 +26,7 @@ struct dados_mapa
     int objetivo;
     char fantasmas;
 };
-typedef struct dados_mapa mapa;
+typedef struct dados_mapa Mapa;
 
 /*  Matrizes */
 //  Personagem
@@ -71,11 +71,11 @@ char desenho_objetivo[DESENHO_LINHA][DESENHO_COLUNA] =
 };
 
 /*  Funcoes */
-void gerar_matriz(mapa *m);
-void ler_mapa(mapa *m, char level[]);
-void imprimir_mapa(mapa *m);
+void gerar_matriz(Mapa *m);
+void ler_mapa(Mapa *m, char level[]);
+void imprimir_mapa(Mapa *m);
 void desenhar_tela(char desenho, int parte);
-void identificar_elementos(mapa *mapa);
-void liberar_matriz(mapa *m);
+void identificar_elementos(Mapa *mapa);
+void liberar_matriz(Mapa *m);
 
 #endif // MAPA_H_INCLUDED

@@ -4,7 +4,7 @@
 #include "mapa.h"
 
 //  Funcao que gera uma matriz por alocacao dinamica
-void gerar_matriz(mapa *m)
+void gerar_matriz(Mapa *m)
 {
     m->matriz = malloc(sizeof(char*) * m->linha);
     for(int loop = 0; loop < m->linha; loop++)
@@ -14,7 +14,7 @@ void gerar_matriz(mapa *m)
 }
 
 //  Funcao que ler o arquivo mapa.txt e copia na matriz mapa
-void ler_mapa(mapa *m, char level[])
+void ler_mapa(Mapa *m, char level[])
 {
     FILE *file;
     file = fopen(level, "r");
@@ -34,7 +34,7 @@ void ler_mapa(mapa *m, char level[])
 }
 
 //  Funcao que imprime o mapa na tela
-void imprimir_mapa(mapa *m)
+void imprimir_mapa(Mapa *m)
 {
     for(int linha = 0; linha < m->linha; linha++)
     {
@@ -76,7 +76,7 @@ void desenhar_tela(char desenho, int parte)
 }
 
 //  Funcao que identifica a quantidade de elementos do mapa
-void identificar_elementos(mapa *m)
+void identificar_elementos(Mapa *m)
 {
     m->fantasmas = 0;
     m->objetivo = 0;
@@ -97,7 +97,7 @@ void identificar_elementos(mapa *m)
 }
 
 //  Funcao que libera os espacos de memoria da matriz
-void liberar_matriz(mapa *m)
+void liberar_matriz(Mapa *m)
 {
     for(int loop = 0; loop < m->linha; loop++)
     {
