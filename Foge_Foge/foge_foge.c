@@ -5,9 +5,9 @@
 #include "mapa/mapa.h"
 
 //  Variaveis structs
-mapa m;
-personagem heroi;
-inimigo *fantasmas;
+Mapa m;
+Personagem heroi;
+Inimigo *fantasmas;
 
 //  Funcao que localiza as coordenadas do personagem na matriz
 void localizar_personagem(void)

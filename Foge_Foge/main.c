@@ -11,9 +11,7 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include <time.h>
-#include "foge_foge.h"
 #include "foge_foge.c"
-#include "mapa/mapa.h"
 #include "mapa/mapa.c"
 
 int main()

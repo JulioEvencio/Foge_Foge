@@ -26,14 +26,14 @@ struct dados_personagem
     int x;
     int y;
 };
-typedef struct dados_personagem personagem;
+typedef struct dados_personagem Personagem;
 //  inimigo
 struct dados_fantasmas
 {
     int x;
     int y;
 };
-typedef struct dados_fantasmas inimigo;
+typedef struct dados_fantasmas Inimigo;
 
 /*  Funcoes */
 void localizar_personagem(void);
