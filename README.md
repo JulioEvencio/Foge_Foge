@@ -52,6 +52,3 @@ A dificuldade deste nível é moderada...
 Paciência e fazer movimentos inválidos são as chaves para passar deste level!
 
 ![level_3](https://user-images.githubusercontent.com/65574850/101289267-24849900-37da-11eb-83ea-0a548d38eb10.png)
-
-
-### EM DESENVOLVIMENTO... ###
